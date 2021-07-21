@@ -22,7 +22,7 @@ const LandingSection = () => {
                     </li>
                     <li>
                         <a data-Scroll href= "#projects">
-                            Projects
+                            Projectsssss
                         </a>
                     </li>
                     <li>
