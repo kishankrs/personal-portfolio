@@ -1,3 +1,5 @@
+import LandingIl from "../../assets/vectors/landingil.svg";
+
 import "./LandingSection.css";
 
 const LandingSection = () => {
@@ -32,7 +34,33 @@ const LandingSection = () => {
           </ul>
         </nav>
       </header>
-      <main></main>
+      <main className="landing">
+        <article>
+          <h2 className="main-Heading">
+            Hey, I am <span className="orange"> Kishan Kumar</span>
+          </h2>
+          <h3 className="sub-heading">
+            I am an <span className="green">Embedded Systems Engineer</span>
+          </h3>
+        </article>
+        <img
+          src={LandingIl}
+          alt="Landing Illustration"
+          className="landing-il"
+        />
+        <a data-scroll href="#projects" className="chevron">
+          <div className="mouse_scroll">
+            <div className="mouse">
+              <div className="wheel"></div>
+            </div>
+            <div>
+              <span className="m_scroll_arrows unu"></span>
+              <span className="m_scroll_arrows doi"></span>
+              <span className="m_scroll_arrows trei"></span>
+            </div>
+          </div>
+        </a>
+      </main>
     </section>
   );
 };
