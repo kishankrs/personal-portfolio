@@ -4,7 +4,7 @@
   box-sizing: border-box;
   z-index: 10;
   background-color: #f5f6fd;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .nav-links {
@@ -53,18 +53,18 @@ h3 {
 }
 
 .main-heading {
-  font-size: 3.5rem;
-  /* opacity: 0; */
+  font-size: 4rem;
+  opacity: 0;
 }
 
 .sub-heading {
   font-size: 2rem;
   margin-top: 1rem;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .landing-il {
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .orange {

@@ -1,8 +1,47 @@
+import { useEffect } from "react";
+
+import gsap from "gsap";
 import LandingIl from "../../assets/vectors/landingil.svg";
 
 import "./LandingSection.css";
 
 const LandingSection = () => {
+  useEffect(() => {
+    const tl = gsap.timeline();
+
+    tl.to(".main-heading", { opacity: 1, duration: 1.5 })
+      .from(".main-heading", {
+        x: -100,
+        duration: 1.5,
+        delay: -1.5,
+      })
+      .to(".sub-heading", {
+        opacity: 1,
+        duration: 1.5,
+        delay: -1,
+      })
+      .from(".sub-heading", {
+        x: -100,
+        duration: 1.5,
+        delay: -1.5,
+      })
+      .to(".landing-il", {
+        opacity: 1,
+        duration: 1.5,
+        delay: -1,
+      })
+      .from(".landing-il", {
+        y: 100,
+        duration: 1.5,
+        delay: -1.5,
+      })
+      .to(".navbar", {
+        opacity: 1,
+        duration: 1.5,
+        delay: -1,
+      });
+  }, []);
+
   return (
     <section id="landing">
       <header className="navbar">
@@ -36,7 +75,7 @@ const LandingSection = () => {
       </header>
       <main className="landing">
         <article>
-          <h2 className="main-Heading">
+          <h2 className="main-heading">
             Hey, I am <span className="orange"> Kishan</span>
           </h2>
           <h3 className="sub-heading">
