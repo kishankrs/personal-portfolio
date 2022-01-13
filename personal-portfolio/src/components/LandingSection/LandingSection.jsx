@@ -37,7 +37,7 @@ const LandingSection = () => {
       <main className="landing">
         <article>
           <h2 className="main-Heading">
-            Hey, I am <span className="orange"> Kishan Kumar</span>
+            Hey, I am <span className="orange"> Kishan</span>
           </h2>
           <h3 className="sub-heading">
             I am an <span className="green">Embedded Systems Engineer</span>
