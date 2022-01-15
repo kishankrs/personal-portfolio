@@ -41,18 +41,10 @@ const AboutSection = () => {
       </header>
       <main>
         <p className="text" id="about-content">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
-          quo ea, modi laudantium quisquam dolorem deserunt adipisci! Neque amet
-          recusandae optio, iste ipsum reiciendis iure sunt fugit ducimus quos,
-          libero dolorum error excepturi debitis quaerat suscipit tenetur hic
-          provident corporis aut explicabo! Culpa laboriosam, rerum dignissimos
-          odit magnam dolore reprehenderit omnis nesciunt minus labore unde
-          recusandae blanditiis impedit officiis, velit consequatur eaque
-          pariatur fuga, corrupti ut minima eius? Consectetur, sapiente nemo a
-          voluptatem voluptatibus, vel cum tenetur id sed enim ad vitae, quasi
-          totam eum maxime incidunt magnam! Autem recusandae aliquam deserunt
-          doloribus consectetur voluptate odio modi reiciendis magnam
-          temporibus?
+          I'm an engineering student at SRM University, Chennai with experience
+          in Embedded Systems -AVR Microcontrollers, HAL Libraries, Embedded C.
+          I am looking for internships & learning opportunities in the field of
+          Embedded Systems. Interested in Embedded, and Hardware Design roles.
         </p>
       </main>
     </section>
