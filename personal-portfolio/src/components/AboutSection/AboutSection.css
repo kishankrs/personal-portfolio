@@ -1,6 +1,7 @@
 .about {
   min-height: 50vh;
   padding: 6rem 8rem;
+  padding-top: 1rem;
   box-sizing: border-box;
 }
 

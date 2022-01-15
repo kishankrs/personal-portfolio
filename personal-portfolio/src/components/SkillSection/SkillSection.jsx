@@ -13,26 +13,23 @@ const SkillsSection = () => {
       scrollTrigger: "#skills-heading",
       opacity: 1,
       duration: 2,
-      delay: 3.5,
+      delay: 2.5,
     })
       .from("#skills-heading", {
         x: -100,
         duration: 2,
         delay: -2,
       })
-      .to(".skill-cont", {
-        scrollTrigger: ".skill-cont",
+      .to("#skills-content", {
+        scrollTrigger: "#skills-content",
         opacity: 1,
         duration: 1.5,
-        delay: -1,
+        delay: 1,
       })
-      .from(".skill-cont", {
-        y: 100,
+      .from("#skills-content", {
+        x: -100,
         duration: 1.5,
         delay: -1.5,
-      })
-      .from(".bar", {
-        height: 0,
       });
   }, []);
 
@@ -44,14 +41,12 @@ const SkillsSection = () => {
         </h2>
       </header>
       <main>
-        <article className="skill-cont">
-          {SKILLS.map(({ name, skill }, i) => (
-            <div className="skill" key={i}>
-              <div className="progress-bar">
-                <div className="bar" style={{ height: `${skill}%` }} />
-              </div>
-              <span>{name}</span>
-            </div>
+        <article className="skills">
+          {SKILLS.map(({ name }) => (
+            <h3 className="text-skill green" id="skills-content">
+              {name}
+            </h3>
+            // <p className="proj-desc orange">{name}</p>
           ))}
         </article>
       </main>
