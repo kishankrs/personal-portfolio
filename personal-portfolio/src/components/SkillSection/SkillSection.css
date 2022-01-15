@@ -5,6 +5,7 @@
   box-sizing: border-box;
   /* display: flex;
   justify-content: start; */
+  padding-bottom: 2rem;
 }
 
 .skills {
