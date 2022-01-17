@@ -41,7 +41,7 @@ const AboutSection = () => {
       </header>
       <main>
         <p className="text" id="about-content">
-          I'm an Engineering student at SRM University, Chennai with experience
+          I'm an engineering student at SRM University, Chennai with experience
           in Embedded Systems -AVR Microcontrollers, HAL Libraries, Embedded C.
           I am looking for internships & learning opportunities in the field of
           Embedded Systems. Interested in Embedded, and Hardware Design roles.
